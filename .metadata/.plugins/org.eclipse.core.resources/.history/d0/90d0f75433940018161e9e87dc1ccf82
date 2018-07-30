@@ -1,0 +1,7 @@
+package sumana.factories;
+
+import sumana.factories.intf.AbstractFactory;
+
+public interface ShapeFactory extends AbstractFactory {
+
+}

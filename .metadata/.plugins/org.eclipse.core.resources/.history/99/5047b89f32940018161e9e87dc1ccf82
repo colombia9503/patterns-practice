@@ -1,0 +1,5 @@
+package sumana.shape.intf;
+
+public interface Shape {
+
+}

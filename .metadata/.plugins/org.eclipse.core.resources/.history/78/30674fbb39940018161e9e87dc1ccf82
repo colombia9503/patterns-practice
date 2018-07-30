@@ -1,0 +1,11 @@
+package sumana.factories;
+
+import sumana.factories.inhe.AbstractFactory;
+import sumana.shapes.Circle;
+import sumana.shapes.Rectangle;
+import sumana.shapes.Square;
+import sumana.shapes.intf.Shape;
+
+public class ShapeFactory extends AbstractFactory {
+	
+}

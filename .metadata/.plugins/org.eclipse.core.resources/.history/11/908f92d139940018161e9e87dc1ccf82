@@ -1,0 +1,21 @@
+package sumana.factories;
+
+import sumana.colors.intf.Color;
+import sumana.factories.inhe.AbstractFactory;
+import sumana.shapes.intf.Shape;
+
+public class ShapeFactory extends AbstractFactory {
+
+	@Override
+	Shape getShape(String shapeType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	Color getColor(String colorType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

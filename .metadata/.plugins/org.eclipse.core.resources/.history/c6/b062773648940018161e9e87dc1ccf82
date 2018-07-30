@@ -1,0 +1,15 @@
+package sumana;
+
+import sumana.meals.Meal;
+import sumana.meals.builders.MealBuilder;
+
+public class Main {
+	public static void main(String[] args) {
+		MealBuilder mealBuilder = new MealBuilder();
+		System.out.println("--------first order--------");
+		Meal vegMeal = mealBuilder.prepareVegMeal();
+		System.out.println("--------second order--------");
+		Meal nonVegMeal = mealBuilder.prepareNonVegMeal();
+		
+	}
+}

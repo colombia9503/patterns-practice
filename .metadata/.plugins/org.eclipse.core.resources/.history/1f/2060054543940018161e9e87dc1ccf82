@@ -1,0 +1,13 @@
+package sumana.food;
+
+import sumana.items.Item;
+
+public class Burguer implements Item {
+
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

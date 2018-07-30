@@ -1,0 +1,5 @@
+package sumana.meals;
+
+public class Meal {
+
+}

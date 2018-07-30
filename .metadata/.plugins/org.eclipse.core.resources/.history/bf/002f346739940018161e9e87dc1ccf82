@@ -1,0 +1,26 @@
+package sumana.factories;
+
+import sumana.colors.Blue;
+import sumana.colors.Green;
+import sumana.colors.Red;
+import sumana.colors.intf.Color;
+import sumana.factories.intf.AbstractFactory;
+
+public abstract class ColorFactory extends AbstractFactory {
+	@Override
+	Color getColor(String color) {
+		switch (color) {
+		case "RED":
+			return new Red();
+
+		case "BLUE":
+			return new Blue();
+
+		case "GREEN":
+			return new Green();
+
+		default:
+			return null;
+		}
+	}
+}

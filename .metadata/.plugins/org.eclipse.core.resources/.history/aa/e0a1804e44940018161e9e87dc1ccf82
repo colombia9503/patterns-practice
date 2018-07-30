@@ -1,0 +1,11 @@
+package sumana.meals.builders;
+
+import sumana.meals.Meal;
+
+public class MealBuilder {
+	public Meal prepareVegMeal() {
+		return null;
+	}
+	
+	public Meal prepareNonCegMeal() {}
+}

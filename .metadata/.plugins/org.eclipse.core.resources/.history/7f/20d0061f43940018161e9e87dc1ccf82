@@ -1,0 +1,5 @@
+package sumana.food;
+
+public abstract class Burguer {
+
+}

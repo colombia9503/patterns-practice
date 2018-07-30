@@ -1,0 +1,28 @@
+package sumana.meals;
+
+import java.util.ArrayList;
+
+import sumana.items.Item;
+
+public class Meal {
+	private ArrayList<Item> items;
+	
+	public Meal() {
+		this.items = new ArrayList<Item>();
+	}
+	
+	public void addItem(Item item) {
+		items.add(item);
+	}
+	
+	public void getCost() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void showItems() {
+		items.forEach(item -> {
+			System.out.println("item: ");
+		});
+	}
+}

@@ -1,0 +1,13 @@
+package sumana.shapes;
+
+import sumana.colors.intf.Color;
+
+public class Square implements Color {
+
+	@Override
+	public void fill() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

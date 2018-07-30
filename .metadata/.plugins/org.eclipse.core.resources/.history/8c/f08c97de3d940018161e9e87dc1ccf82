@@ -1,0 +1,13 @@
+package sumana.pojos;
+
+public class SingleObject {
+	public static SingleObject instance = new SingleObject();
+	
+	public SingleObject getInstance() {
+		return instance;
+	}
+	
+	public void showMessage() {
+		System.out.println("Object instance");
+	}
+}

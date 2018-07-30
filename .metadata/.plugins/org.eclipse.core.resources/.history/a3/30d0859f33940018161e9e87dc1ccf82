@@ -1,0 +1,7 @@
+package sumana.colors;
+
+import sumana.colors.intf.Color;
+
+public class Green implements Color {
+
+}

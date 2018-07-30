@@ -1,0 +1,12 @@
+package sumana.factories;
+
+import sumana.colors.intf.Color;
+import sumana.factories.intf.AbstractFactory;
+
+public interface ColorFactory extends AbstractFactory {
+	@Override
+	default Color getColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

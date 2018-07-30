@@ -1,0 +1,12 @@
+package sumana.factories;
+
+import sumana.factories.intf.AbstractFactory;
+import sumana.shapes.intf.Shape;
+
+public interface ShapeFactory extends AbstractFactory {
+	@Override
+	default Shape getShape() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,5 @@
+package sumana.meals.builders;
+
+public class MealBuilder {
+
+}

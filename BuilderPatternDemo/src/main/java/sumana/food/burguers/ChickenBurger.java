@@ -1,0 +1,16 @@
+package sumana.food.burguers;
+
+import sumana.food.Burger;
+
+public class ChickenBurger extends Burger {
+
+	@Override
+	public String name() {
+		return "chicken burguer";
+	}
+
+	@Override
+	public Float price() {
+		return 7000.25f;
+	}
+}

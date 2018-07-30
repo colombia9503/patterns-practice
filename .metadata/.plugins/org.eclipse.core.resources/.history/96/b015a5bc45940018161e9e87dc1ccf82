@@ -1,0 +1,15 @@
+package sumana.items;
+
+import com.google.common.base.MoreObjects.ToStringHelper;
+
+import sumana.packs.Packing;
+
+public interface Item {
+	public String name();
+	public Packing packing();
+	public Float price();
+	
+	public abstract String toString() {
+		return "";
+	}
+}

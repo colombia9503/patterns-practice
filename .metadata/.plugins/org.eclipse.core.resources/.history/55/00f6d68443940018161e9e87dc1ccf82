@@ -1,0 +1,7 @@
+package sumana.food.burguers;
+
+import sumana.food.Burguer;
+
+public class VegBurger extends Burguer {
+
+}

@@ -1,0 +1,12 @@
+package sumana;
+
+import sumana.meals.builders.MealBuilder;
+
+public class Main {
+	public static void main(String[] args) {
+		MealBuilder mealBuilder = new MealBuilder();
+		mealBuilder.prepareVegMeal().showItems();
+		System.out.println("----------------");
+		mealBuilder.prepareNonVegMeal().showItems();
+	}
+}

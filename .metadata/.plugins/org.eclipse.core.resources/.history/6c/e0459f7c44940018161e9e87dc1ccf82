@@ -1,0 +1,7 @@
+package sumana.packs.impl;
+
+import sumana.packs.Packing;
+
+public class Wrapper implements Packing {
+
+}

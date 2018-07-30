@@ -1,0 +1,9 @@
+package sumana.factories.inhe;
+
+import sumana.colors.intf.Color;
+import sumana.shapes.intf.Shape;
+
+public abstract class AbstractFactory {
+	abstract Shape getShape(String shapeType);
+	abstract Color getColor(String colorType);
+}

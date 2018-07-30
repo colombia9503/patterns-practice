@@ -1,0 +1,7 @@
+package sumana.food;
+
+import sumana.items.Item;
+
+public class ColdDrink implements Item {
+
+}

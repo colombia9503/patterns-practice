@@ -1,0 +1,19 @@
+package sumana.food.drinks;
+
+import sumana.food.ColdDrink;
+
+public class Coke extends ColdDrink {
+
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Float price() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

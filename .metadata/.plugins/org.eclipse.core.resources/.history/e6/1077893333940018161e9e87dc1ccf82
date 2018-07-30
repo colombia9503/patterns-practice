@@ -1,0 +1,5 @@
+package sumana.factories.intf;
+
+public interface AbstractFactory {
+	
+}
